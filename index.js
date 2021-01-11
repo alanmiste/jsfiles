@@ -351,3 +351,21 @@ try {
 } finally   {
     console.log("I am always here")
 } */
+
+
+//command line interface arguments.
+/* console.log(process.argv)
+
+const args = process.argv.splice(2) //cut away build in arguments to let the user arguments alone
+console.log(args)
+let index = 0
+setInterval(() => {
+
+    if (args[1] == index) {
+        process.exit() // it's like "break" in the loops
+    }
+    else {
+        console.log(`Hi ${args[2]} The Time is: ${Date.now()}`)
+    }
+    index++
+}, args[0]); */
